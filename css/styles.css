@@ -111,13 +111,14 @@ body {
 }
 
 .auth-nav .link {
+  display: flex;
+  align-items: center;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  
 }
 
 .auth-nav .link:hover,
@@ -125,10 +126,9 @@ body {
   color: var(--accent-colour);
 }
 
-.contact-icons{
-      margin-right: 10px;
-        fill: currentColor;
-  
+.contact-icons {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* hero */
@@ -138,18 +138,17 @@ body {
   padding-bottom: 200px;
   text-align: center;
 }
-.hero-overlay{
+.hero-overlay {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bgi-hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bgi-hero.jpg);
   background-color: var(--footer-bgc-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
-
 }
 .hero-tittle {
   margin-top: 0;
@@ -170,7 +169,7 @@ body {
   padding-bottom: 94px;
 }
 
-.features-section{
+.features-section {
   padding-bottom: 0;
 }
 
@@ -200,12 +199,12 @@ body {
   margin-right: 0;
 }
 
-.features-icon-div{
- height: 120px;
- width: 270px;
- padding: 25px 100px;
- margin-bottom: 30px;
-background-color: var(--button-bgc-color);
+.features-icon-div {
+  height: 120px;
+  width: 270px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: var(--button-bgc-color);
 }
 
 .features .tittle {
@@ -234,7 +233,7 @@ background-color: var(--button-bgc-color);
 }
 
 /* Team-list */
-.team-members{
+.team-members {
   background: var(--button-bgc-color);
 }
 .team-list-members {
@@ -271,17 +270,17 @@ background-color: var(--button-bgc-color);
   margin-bottom: 16px;
 }
 
-.socnetworks-list{
+.socnetworks-list {
   display: flex;
-    justify-content: center;
-    gap: 10px;
+  justify-content: center;
+  gap: 10px;
 }
-.socnetworks-item{
+.socnetworks-item {
   width: 44px;
-    height: 44px;
+  height: 44px;
 }
-.socnetworks-link{
-width: 100%;
+.socnetworks-link {
+  width: 100%;
   height: 100%;
   border-radius: 50%;
   display: flex;
@@ -289,18 +288,17 @@ width: 100%;
   justify-content: center;
   fill: var(--primary-text-color);
 }
-.socnetworks-icon{
+.socnetworks-icon {
   color: currentColor;
 }
 
-.socnetworks-link:hover{
+.socnetworks-link:hover {
   background-color: var(--accent-colour);
-  fill:var(--primary-white-color)
+  fill: var(--primary-white-color);
 }
 
-
 /* clients */
-.clients-list{
+.clients-list {
   display: flex;
   gap: 30px;
 }
@@ -442,42 +440,41 @@ width: 100%;
   padding-bottom: 60px;
   background-color: var(--footer-bgc-color);
 }
-.footer-container{
+.footer-container {
   display: flex;
 }
-.footer-socnetworks{
+.footer-socnetworks {
   margin-left: 70px;
 }
-.footer-text{
+.footer-text {
   display: inline-block;
   margin-bottom: 20px;
   font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
 }
-.footer-item{
+.footer-item {
   width: 44px;
-    height: 44px;
-    
-} 
-.footer-list{
-display: flex;
-justify-content: center;
+  height: 44px;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
   gap: 10px;
- }
- .footer-link{
+}
+.footer-link {
   width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.1);
-    fill: var(--primary-white-color);
- }
- .footer-icon {
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--primary-white-color);
+}
+.footer-icon {
   color: currentColor;
 }
 
@@ -485,7 +482,6 @@ justify-content: center;
   background-color: var(--accent-colour);
   fill: var(--primary-white-color);
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -497,4 +493,3 @@ justify-content: center;
   border: 0;
   clip: rect(0 0 0 0);
 }
-
