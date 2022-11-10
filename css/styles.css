@@ -117,15 +117,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-colour);
 }
-.contact-link{
-  
-}
+
 .contact-icons{
       margin-right: 10px;
         fill: currentColor;
@@ -305,6 +304,7 @@ width: 100%;
   display: flex;
 justify-content: center;
 gap:30px;
+/* cursor: pointer; */
 }
 
 .clients-item{
@@ -313,13 +313,17 @@ height: 92px;
 display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--primary-text-color);
+  /* border: 1px solid var(--primary-text-color);
   border-radius: 4px;
-  fill: var(--primary-text-color);
+  fill: var(--primary-text-color); */
 }
 .clients-link{
-  width: 100%;
-    height: 100%;
+  width: 170px;
+    height: 92px;
+    padding: 16px 32px;
+    border: 1px solid var(--primary-text-color);
+      border-radius: 4px;
+      color: var(--primary-text-color);
     /* display: flex;
       align-items: center;
       justify-content: center;
@@ -481,7 +485,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
-    fill: var(--primary-white-color-color);
+    fill: var(--primary-white-color);
  }
  .footer-icon {
   color: currentColor;
@@ -489,7 +493,7 @@ justify-content: center;
 
 .footer-link:hover {
   background-color: var(--accent-colour);
-  fill: var(--primary-white-color)
+  fill: var(--primary-white-color);
 }
 
 
