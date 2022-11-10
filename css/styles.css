@@ -200,7 +200,7 @@ body {
   margin-right: 0;
 }
 
-.features-icon{
+.features-icon-div{
  height: 120px;
  width: 270px;
  padding: 25px 100px;
@@ -302,42 +302,32 @@ width: 100%;
 /* clients */
 .clients-list{
   display: flex;
-justify-content: center;
-gap:30px;
-/* cursor: pointer; */
+  gap: 30px;
 }
-
-.clients-item{
-width: 170px;
-height: 92px;
-display: flex;
+.clients-item {
+  width: 170px;
+  height: 92px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid var(--primary-text-color);
+}
+
+.clients-link {
+  width: 100%;
+  height: 100%;
+  padding: 16px 32px;
+  border: 1px solid var(--primary-text-color);
   border-radius: 4px;
-  fill: var(--primary-text-color); */
-}
-.clients-link{
-  width: 170px;
-    height: 92px;
-    padding: 16px 32px;
-    border: 1px solid var(--primary-text-color);
-      border-radius: 4px;
-      color: var(--primary-text-color);
-    /* display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid var(--primary-text-color);
-        border-radius: 4px; */
+  color: var(--primary-text-color);
 }
 
-.icon-logo{
-  color: currentColor;
+.icon-logo {
+  fill: currentColor;
 }
 
-.clients-item:hover{
-border-color: var(--accent-colour);
-fill: var(--accent-colour);
+.clients-link:hover {
+  border: 1px solid var(--accent-colour);
+  color: var(--accent-colour);
 }
 
 /* Buttons */
